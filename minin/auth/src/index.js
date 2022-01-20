@@ -1,7 +1,7 @@
 import './style.css'
 
-import {isValid} from "./utils";
-import {Question} from "./question";
+import {isValid} from "./js/utils";
+import {Question} from "./js/question";
 
 const form = document.getElementById('form');
 const input = form.querySelector('#question-input');
